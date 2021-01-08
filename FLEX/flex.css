@@ -1,0 +1,52 @@
+style.css * {
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.text1 {
+    position: relative;
+    bottom: 40px;
+    color: black;
+    font-size: 15px;
+}
+
+.text2 {
+    color: black;
+    position: relative;
+    top: 40px;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: blue;
+}
+
+@media(max-width:600px) {
+    .conteiner {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
